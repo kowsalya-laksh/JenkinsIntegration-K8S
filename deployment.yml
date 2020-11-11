@@ -15,8 +15,8 @@ spec:
         app: docker-k8s-demo
     spec:
       containers:
-      - name: JenkinsIntegration-k8s
-        image: jenkinsintegration
+      - name: JenkinsIntegration-k8s-container
+        image: kowsylakshu/jenkinsintegration
         imagePullPolicy: Always
         ports:
         -containerPort: 8080
